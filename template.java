@@ -38,7 +38,7 @@ public class CommandAlias extends JavaPlugin {
 	{
 		private final CommandAlias plugin;
 
-		public CommandAliasPlayerListener(CommandAlias instance)
+		public PListener(CommandAlias instance)
 		{
 			plugin = instance;
 		}
@@ -47,7 +47,7 @@ public class CommandAlias extends JavaPlugin {
 	public class BListener extends BlockListener {
 		private final CommandAlias plugin;
 
-		public CommandAliasBlockListener(final CommandAlias plugin) {
+		public BListener(final CommandAlias plugin) {
 			this.plugin = plugin;
 		}
 	}
